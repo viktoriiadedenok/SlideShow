@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css_style/style.css" />
+    <script src="index.js"></script>
+    <title>Fish Gallery</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head-name">Fish gallery</div>
+      <div class="picture-menu">
+        <div class="button-item">
+          <button class="button-item__left" onclick="nextPhotoLeft()">
+          </button>
+        </div>
+        <div class="image-item">
+          <img class="image-item__image" id="picture" src="img/img_00.jpg" />
+        </div>
+        <div class="button-item">
+          <button class="button-item__right" onclick="nextPhotoRight()">
+          </button>
+        </div>
+      </div>
+        <div class="buttons">
+        <button onclick="changePicture(event, 0)" class="round-button active" ></button>
+        <button onclick="changePicture(event, 1)" class="round-button" ></button>
+        <button onclick="changePicture(event, 2)" class="round-button" ></button>
+        <button onclick="changePicture(event, 3)" class="round-button" ></button>
+        <button onclick="changePicture(event, 4)" class="round-button" ></button>
+        <button onclick="changePicture(event, 5)" class="round-button" ></button>
+        <button onclick="changePicture(event, 6)" class="round-button" ></button>
+      </div>
+    </div>
+  </body>
+</html>
